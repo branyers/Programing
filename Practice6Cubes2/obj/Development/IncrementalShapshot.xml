@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Practice6Cubes2</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>E0VScDu3aEX5e9XMSCACwZE5Wto=8/1/2018 3:02:11 PM8/1/2018 3:02:11 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW20140</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Iiw303zFVPv07g0zDgdIhcODN9k=8/1/2018 3:13:10 PM8/1/2018 3:04:52 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW20140</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VpXoJauZQ7inMfo9lwxdlooabQ4=8/1/2018 4:29:50 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xzSxi6YZOrywEgsyysvAQ07bqus=8/1/2018 4:29:50 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p6deFciPYKOMU6Ixg9q1m1u92k0=8/1/2018 4:29:50 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FsvJoR2QMpPRv1WUdndEunuCfR8=8/1/2018 4:29:50 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OxdbDQWzlhNDyO5VRfJjwtRcPEs=8/1/2018 4:17:12 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Fact Internet Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z0PT081gZ2XaXmtR0LpnOr7+M/Y=8/1/2018 6:00:31 PM8/1/2018 5:41:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Mj3t0S390VS9ySFcxPgChxx5tMc=8/1/2018 5:52:31 PM8/1/2018 4:17:11 PMHB/nacngE9bTYoMse7puYfqoYM4=8/1/2018 4:17:11 PM8/1/2018 4:17:11 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW20140</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>WOT2kbbUJlOsAKEmBHGQgVRm2CM=8/1/2018 3:00:13 PM8/1/2018 3:00:13 PM</TimeStamp>
+      <ID>
+        <String>Practice6Cubes2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-08-01T22:00:32.923333Z</LastDeployed>
+</DeploymentSnapshot>
